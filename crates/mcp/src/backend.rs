@@ -86,10 +86,12 @@ impl Backend for Remote {
             Ok(r) => r,
             // Resend only when the request cannot have been applied. After a sent mutation with no reply the outcome is unknown, and
             // resending could apply it twice (for example two circles from one call), so report that instead.
-            Err((_, sent)) if !sent || is_read_only(method) => self.roundtrip(&line).map_err(|(e, _)| format!("CADCraft at {}: {e}", self.addr))?,
+            Err((_, sent)) if !sent || is_read_only(method) => {
+                self.roundtrip(&line).map_err(|(e, _)| format!("Atelier Blueprint at {}: {e}", self.addr))?
+            }
             Err((e, _)) => {
                 return Err(format!(
-                    "CADCraft at {}: {e}; the reply was lost, so `{method}` may or may not have been applied. Inspect the drawing first",
+                    "Atelier Blueprint at {}: {e}; the reply was lost, so `{method}` may or may not have been applied. Inspect the drawing first",
                     self.addr
                 ));
             }
@@ -105,7 +107,7 @@ impl Backend for Remote {
         true
     }
     fn describe(&self) -> String {
-        format!("connected to CADCraft at {}", self.addr)
+        format!("connected to Atelier Blueprint at {}", self.addr)
     }
 }
 
@@ -204,7 +206,7 @@ impl Backend for Headless {
         false
     }
     fn describe(&self) -> String {
-        "headless CADCraft session".into()
+        "headless Atelier Blueprint session".into()
     }
 }
 

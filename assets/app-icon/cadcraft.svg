@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Atelier Blueprint: the hidden sun behind a drafting set square with a ruled edge. Three colours:
+       volcanic black #141210, ivory #efe6d2, ochre #d9a441. -->
+  <rect width="512" height="512" rx="112" fill="#141210"/>
+  <circle cx="280" cy="208" r="130" fill="#efe6d2"/>
+  <path d="M84 452 L84 104 L432 452 Z" fill="#141210" stroke="#141210" stroke-width="28" stroke-linejoin="round"/>
+  <path d="M100 436 L100 142 L394 436 Z" fill="#d9a441" stroke="#d9a441" stroke-width="12" stroke-linejoin="round"/>
+  <path d="M152 384 L152 268 L268 384 Z" fill="#141210" stroke="#141210" stroke-width="10" stroke-linejoin="round"/>
+  <g stroke="#141210" stroke-width="9" stroke-linecap="round">
+    <path d="M136 440 V420"/><path d="M168 440 V408"/><path d="M200 440 V420"/><path d="M232 440 V408"/>
+    <path d="M264 440 V420"/><path d="M296 440 V408"/><path d="M328 440 V420"/>
+  </g>
+</svg>
