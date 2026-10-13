@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 # Regenerate the derived app icons from assets/app-icon/cadcraft-1024.png (macOS: sips, iconutil).
+# cadcraft-1024.png itself is rendered from assets/app-icon/cadcraft.svg, the Atelier Blueprint icon.
 # The outputs are committed, so builds and packaging never need these tools.
 #
 #   packaging/icons.sh

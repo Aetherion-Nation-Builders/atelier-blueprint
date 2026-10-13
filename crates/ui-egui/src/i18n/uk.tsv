@@ -28,7 +28,7 @@
 	= Equals	= Дорівнює
 	> Greater than	> Більше ніж
 	About	Про програму
-	About CADCraft	Про CADCraft
+	About Atelier Blueprint	Про Atelier Blueprint
 	Absolute	Абсолютні
 	Add Leader	Додати виноску
 	Align	Вирівняти
@@ -80,7 +80,7 @@
 	ByBlock	За блоком
 	ByColor	За кольором
 	ByLayer	За шаром
-	CADCraft Help	Довідка CADCraft
+	Atelier Blueprint Help	Довідка Atelier Blueprint
 	Cancel	Скасувати
 	Cartesian (x, y)	Декартові (x, y)
 	Center	Центр
@@ -342,8 +342,8 @@
 	Isolate Layer	Ізолювати шар
 	Isometric Drafting	Ізометричне креслення
 	Join	Об'єднати
-	Join the ArtCraft Discord…	Приєднатися до Discord ArtCraft…
-	Join us on Discord	Приєднуйтеся до нас у Discord
+	Join the Nation…	Приєднатися до Nation…
+	Join the Nation	Приєднатися до Nation
 	Language	Мова
 	Last	Останній
 	Last commit	Останній коміт
@@ -466,7 +466,8 @@
 	Offset	Зміщення
 	On	Увімкнено
 	On/Off	Увімкнути/вимкнути
-	One of the Crafting Apps by the ArtCraft team and community.	Одна з програм Crafting Apps від команди та спільноти ArtCraft.
+	The Nation's CAD and drafting app. Part of Atelier, built on CADCraft by the ArtCraft team.	Програма Nation для САПР і креслення. Частина Atelier, створена на основі CADCraft від команди ArtCraft.
+	Source on GitHub	Вихідний код на GitHub
 	Open (⌘O)	Відкрити (⌘O)
 	Open Sample Drawing	Відкрити зразок креслення
 	Open sample drawing	Відкрити зразок креслення
@@ -540,7 +541,7 @@
 	Quick Select Properties	Властивості швидкого вибору
 	Quick Select...	Швидкий вибір...
 	QuickCalc	Калькулятор
-	Quit CADCraft	Вийти з CADCraft
+	Quit Atelier Blueprint	Вийти з Atelier Blueprint
 	Radius	Радіус
 	Raster Image	Растрове зображення
 	Ray	Промінь
@@ -939,7 +940,7 @@
 @plural	{n} contributor	{n} учасник|{n} учасники|{n} учасників
 	Drawing as bytes	Креслення як байти
 	Services	Служби
-	Hide CADCraft	Приховати CADCraft
+	Hide Atelier Blueprint	Приховати Atelier Blueprint
 	Hide Others	Приховати інші
 	Accessibility	Спеціальні можливості
 	Show System Cursor	Показувати системний курсор
