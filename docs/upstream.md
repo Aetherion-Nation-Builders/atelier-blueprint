@@ -18,6 +18,10 @@ line; if the header conflicts, keep ours. For anything else, keep upstream's log
 the rename.
 
 CI here is upstream's. Upstream has no test workflow on pull requests: run `cargo xtask ci` locally.
-Packaging lint runs on pull requests that touch packaging, workflows or the app icon. Turned off in
-this repository, on purpose (it costs Actions minutes and builds things we do not ship yet):
-`release.yml`. Turn it on from the Actions tab when it is wanted.
+Packaging lint runs on pull requests that touch packaging, workflows or the app icon.
+
+`release.yml` builds the macOS DMG only for now, on the standard `macos-15` runner, unsigned
+(`docs/releasing.md`). Its other platform jobs are kept from upstream and skipped unless named in
+the repository variable `ATELIER_RELEASE_PLATFORMS`; the DMG holds `Atelier Blueprint.app` on an
+`Atelier Blueprint` volume, with the Atelier background (`packaging/macos/dmg/`). When syncing,
+keep those lines of ours in `release.yml`, `packaging/macos/package.sh` and `packaging/macos/dmg/`.
