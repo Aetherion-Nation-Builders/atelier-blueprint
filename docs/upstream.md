@@ -25,3 +25,9 @@ Packaging lint runs on pull requests that touch packaging, workflows or the app 
 the repository variable `ATELIER_RELEASE_PLATFORMS`; the DMG holds `Atelier Blueprint.app` on an
 `Atelier Blueprint` volume, with the Atelier background (`packaging/macos/dmg/`). When syncing,
 keep those lines of ours in `release.yml`, `packaging/macos/package.sh` and `packaging/macos/dmg/`.
+
+Upstream now calls shared workflows from `storytold/craft-common-actions` (`packaging-lint.yml`,
+and its `release.yml`). Here they are pinned to a commit rather than `@main`; a sync moves the pin
+on purpose. Our `release.yml` keeps its own jobs instead of the shared one, which would build
+every platform on the larger runner as "CADCraft". New upstream catalogs are renamed as they
+arrive (rows naming the product say Atelier Blueprint; Discord and ArtCraft rows are dropped).
