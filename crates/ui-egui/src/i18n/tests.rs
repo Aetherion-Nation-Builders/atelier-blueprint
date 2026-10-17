@@ -495,7 +495,7 @@ fn live_czech_switch_preserves_drawing_command_and_saved_choice() {
 fn czech_dialogs_render_with_stable_ids() {
     for (dialog, heading) in [
         ("dsettings", "Nastavení kreslení"),
-        ("about", "O aplikaci CADCraft"),
+        ("about", "O aplikaci Atelier Blueprint"),
         ("commands", "Přehled příkazů"),
         ("blocks", "Bloky"),
         ("layers", "Správce vlastností hladin"),
@@ -721,7 +721,7 @@ fn korean_dialogs_keep_source_ids() {
     }
     for (dialog, source) in [
         ("dsettings", "Drafting Settings"),
-        ("about", "About CADCraft"),
+        ("about", "About Atelier Blueprint"),
         ("commands", "Command Reference"),
         ("blocks", "Blocks"),
         ("layers", "Layer Properties Manager"),
@@ -850,7 +850,7 @@ fn live_swedish_switch_preserves_drawing_command_and_saved_choice() {
 fn swedish_dialogs_render_with_stable_ids() {
     for (dialog, heading) in [
         ("dsettings", "Ritinställningar"),
-        ("about", "Om CADCraft"),
+        ("about", "Om Atelier Blueprint"),
         ("blocks", "Block"),
         ("layers", "Hantera lageregenskaper"),
         ("qselect", "Snabbmarkering"),
