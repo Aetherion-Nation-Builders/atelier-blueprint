@@ -479,7 +479,7 @@
 	Hide All	Tümünü Gizle
 	Hide All Constraint Bars	Tüm Kısıtlama Çubuklarını Gizle
 	Hide All Dynamic Dimensions	Tüm Dinamik Ölçüleri Gizle
-	Hide Atelier Blueprint	Atelier Blueprint'i Gizle
+	Hide Atelier Blueprint	Atelier Blueprint'ı Gizle
 	Hide Layer List	Katman Listesini Gizle
 	Hide Objects	Nesneleri Gizle
 	Hide Others	Diğerlerini Gizle
@@ -819,7 +819,7 @@
 	Quick Select...	Hızlı Seçim...
 	QuickCalc	Hızlı Hesap
 	QuickCalc Pick	Hızlı Hesap Seçimi
-	Quit Atelier Blueprint	Atelier Blueprint'ten Çık
+	Quit Atelier Blueprint	Atelier Blueprint'tan Çık
 	Radius	Yarıçap
 	Raster Image	Raster Görüntü
 	Ray	Işın
@@ -1344,7 +1344,7 @@ menu	Draw	Çiz
 menu	Modify	Değiştir
 menu	View	Görünüm
 	Check for Updates…	Güncellemeleri denetle…
-	CADCraft is up to date.	CADCraft güncel.
+	Atelier Blueprint is up to date.	Atelier Blueprint güncel.
 	Could not check for updates.	Güncellemeler denetlenemedi.
 	Find All	Find All
 	Find what:	Find what:

@@ -51,7 +51,7 @@
 	> Greater than	> Lớn hơn
 	A variable name starts with a letter and has only letters, digits and _	Tên biến bắt đầu bằng một chữ cái và chỉ gồm chữ cái, chữ số và _
 	About	Giới thiệu
-	About CADCraft	Giới thiệu CADCraft
+	About Atelier Blueprint	Giới thiệu Atelier Blueprint
 	Absolute	Tuyệt đối
 	Add Leader	Thêm đường dẫn ghi chú
 	Additional angles	Các góc bổ sung
@@ -113,7 +113,7 @@
 	ByBlock	ByBlock
 	ByColor	ByColor
 	ByLayer	ByLayer
-	CADCraft Help	Trợ giúp CADCraft
+	Atelier Blueprint Help	Trợ giúp Atelier Blueprint
 	Cancel	Hủy
 	Cartesian (x, y)	Đề-các (x, y)
 	Center	Tâm
@@ -438,8 +438,6 @@
 	Jogged	Gãy khúc
 	Jogged Linear	Gãy khúc tuyến tính
 	Join	Nối
-	Join the ArtCraft Discord…	Tham gia Discord ArtCraft…
-	Join us on Discord	Tham gia cùng chúng tôi trên Discord
 	Isometric Plane	Mặt phẳng đẳng trắc
 	Isometric snap	Snap đẳng trắc
 	Language	Ngôn ngữ
@@ -582,7 +580,6 @@
 	Offset	Offset
 	On	Bật
 	On/Off	Bật/Tắt
-	One of the Crafting Apps by the ArtCraft team and community.	Một trong các ứng dụng Crafting của nhóm và cộng đồng ArtCraft.
 	Only in this drawing: {n}	Chỉ có trong bản vẽ này: {n}
 	Only in {name}: {n}	Chỉ có trong {name}: {n}
 	Oops	Khôi phục đối tượng đã xóa
@@ -701,7 +698,7 @@
 	Quick Select...	Chọn nhanh...
 	QuickCalc	QuickCalc
 	QuickCalc Pick	Chọn QuickCalc
-	Quit CADCraft	Thoát CADCraft
+	Quit Atelier Blueprint	Thoát Atelier Blueprint
 	Radius	Bán kính
 	Raster Image	Ảnh raster
 	Ray	Tia
@@ -932,7 +929,7 @@
 	Specify insertion point	Chỉ định điểm chèn
 	A drawing opened from a file keeps that file's format.	Bản vẽ mở từ một tệp sẽ giữ nguyên định dạng của tệp đó.
 	An array that would create more objects than this is refused.	Mảng tạo nhiều đối tượng hơn mức này sẽ bị từ chối.
-	CADCraft keeps these preferences, object snap modes and drafting toggles for your user account and restores them when it starts.	CADCraft lưu các tùy chọn này, chế độ bắt điểm và các chế độ hỗ trợ vẽ cho tài khoản người dùng của bạn, rồi khôi phục khi khởi động.
+	Atelier Blueprint keeps these preferences, object snap modes and drafting toggles for your user account and restores them when it starts.	Atelier Blueprint lưu các tùy chọn này, chế độ bắt điểm và các chế độ hỗ trợ vẽ cho tài khoản người dùng của bạn, rồi khôi phục khi khởi động.
 	Changes apply at once and are kept for next time.	Thay đổi có hiệu lực ngay và được giữ lại cho lần sau.
 	Command line history	Lịch sử dòng lệnh
 	Copy as JSON	Sao chép dưới dạng JSON
@@ -1178,7 +1175,7 @@
 @plural	{n} contributor	{n} người đóng góp
 	Drawing as bytes	Bản vẽ dưới dạng byte
 	Services	Dịch vụ
-	Hide CADCraft	Ẩn CADCraft
+	Hide Atelier Blueprint	Ẩn Atelier Blueprint
 	Hide Others	Ẩn các ứng dụng khác
 	Accessibility	Trợ năng
 	Show System Cursor	Hiển thị con trỏ hệ thống
@@ -1212,7 +1209,7 @@
 	X	X
 	Y	Y
 	B	B
-	CADCraft	CADCraft
+	Atelier Blueprint	Atelier Blueprint
 	More toolbar commands	Thêm lệnh thanh công cụ
 menu	View	Xem
 menu	Draw	Vẽ
@@ -1224,7 +1221,7 @@ menu	Modify	Hiệu chỉnh
 	Query Texts	Truy vấn chữ
 	Analyze Shapes	Phân tích hình dạng
 	Check for Updates…	Kiểm tra cập nhật…
-	CADCraft is up to date.	CADCraft đã là phiên bản mới nhất.
+	Atelier Blueprint is up to date.	Atelier Blueprint đã là phiên bản mới nhất.
 	Could not check for updates.	Không thể kiểm tra cập nhật.
 	3D Mouse	Chuột 3D
 	3D Mouse Navigation	Điều hướng chuột 3D

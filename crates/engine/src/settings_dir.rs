@@ -9,15 +9,15 @@ use std::sync::Mutex;
 static CHOSEN: Mutex<Option<Option<PathBuf>>> = Mutex::new(None);
 
 /// The platform's settings directory, with `var` looking up the OS variables: `$XDG_CONFIG_HOME/cadcraft`
-/// or `~/.config/cadcraft` on Linux and the BSDs, `~/Library/Application Support/CADCraft` on
-/// macOS, `%APPDATA%\CADCraft` on Windows. An empty variable counts as unset, so a blank value
+/// or `~/.config/cadcraft` on Linux and the BSDs, `~/Library/Application Support/Atelier Blueprint` on
+/// macOS, `%APPDATA%\Atelier Blueprint` on Windows. An empty variable counts as unset, so a blank value
 /// never means the working directory.
 pub fn platform(var: impl Fn(&str) -> Option<OsString>) -> Option<PathBuf> {
     let set = |k: &str| var(k).filter(|v| !v.is_empty()).map(PathBuf::from);
     if cfg!(target_os = "macos") {
-        set("HOME").map(|h| h.join("Library/Application Support/CADCraft"))
+        set("HOME").map(|h| h.join("Library/Application Support/Atelier Blueprint"))
     } else if cfg!(windows) {
-        set("APPDATA").map(|a| a.join("CADCraft"))
+        set("APPDATA").map(|a| a.join("Atelier Blueprint"))
     } else {
         // The XDG spec ignores a relative XDG_CONFIG_HOME.
         set("XDG_CONFIG_HOME").filter(|p| p.is_absolute()).or_else(|| set("HOME").map(|h| h.join(".config"))).map(|c| c.join("cadcraft"))
@@ -68,7 +68,7 @@ mod tests {
     #[cfg(target_os = "macos")]
     #[test]
     fn macos_uses_application_support() {
-        assert_eq!(platform(env(&[("HOME", "/Users/u")])), Some(PathBuf::from("/Users/u/Library/Application Support/CADCraft")));
+        assert_eq!(platform(env(&[("HOME", "/Users/u")])), Some(PathBuf::from("/Users/u/Library/Application Support/Atelier Blueprint")));
     }
 
     #[cfg(windows)]
@@ -76,7 +76,7 @@ mod tests {
     fn windows_uses_appdata() {
         assert_eq!(
             platform(env(&[("APPDATA", "C:\\Users\\u\\AppData\\Roaming")])),
-            Some(PathBuf::from("C:\\Users\\u\\AppData\\Roaming").join("CADCraft"))
+            Some(PathBuf::from("C:\\Users\\u\\AppData\\Roaming").join("Atelier Blueprint"))
         );
     }
 }

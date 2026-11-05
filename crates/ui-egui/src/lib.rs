@@ -14,7 +14,14 @@
 pub const UPDATE_APP: craft_update::app::App = craft_update::app::App {
     icon_png: Some(include_bytes!("../../../assets/app-icon/hicolor/128x128/apps/ai.storyteller.cadcraft.png")),
     accent: Some([0x3e, 0xa6, 0xe8]),
-    ..craft_update::suite::CADCRAFT
+    // Atelier Blueprint: updates come from this repository's releases, never upstream's builds.
+    developer: "Aetherion Nation",
+    ..craft_update::app::App::new(
+        "cadcraft",
+        "Atelier Blueprint",
+        "Computer-aided design and drafting",
+        "Aetherion-Nation-Builders/atelier-blueprint",
+    )
 };
 
 pub mod aliasdlg;

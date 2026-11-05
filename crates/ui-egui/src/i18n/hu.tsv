@@ -818,7 +818,7 @@
 	Quick Select...	Gyorskijelölés...
 	QuickCalc	Gyorsszámológép
 	QuickCalc Pick	Érték felvétele a gyorsszámológépbe
-	Quit Atelier Blueprint	Kilépés az Atelier Blueprint programból
+	Quit Atelier Blueprint	Kilépés az Atelier Blueprintból
 	Radius	Sugár
 	Raster Image	Raszterkép
 	Ray	Félegyenes
@@ -1341,7 +1341,7 @@ menu	Draw	Rajzolás
 menu	Modify	Módosítás
 menu	View	Nézet
 	Check for Updates…	Frissítések keresése…
-	CADCraft is up to date.	A CADCraft naprakész.
+	Atelier Blueprint is up to date.	Az Atelier Blueprint naprakész.
 	Could not check for updates.	A frissítések keresése nem sikerült.
 	Find All	Find All
 	Find what:	Find what:

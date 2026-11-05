@@ -302,7 +302,7 @@ pub fn failure_notice(app: &mut CadApp, ctx: &egui::Context) {
         .anchor(egui::Align2::CENTER_TOP, vec2(0.0, 48.0))
         .show(ctx, |ui| {
             ui.set_width(440.0);
-            ui.label("CADCraft could not write a recovery copy, so recent changes would be lost if the app stopped now.");
+            ui.label("Atelier Blueprint could not write a recovery copy, so recent changes would be lost if the app stopped now.");
             ui.label(RichText::new("Save your work. Autosave tries again after the SAVETIME interval; its folder is in Options.").strong());
             ui.add_space(4.0);
             ui.collapsing("Details", |ui| {
