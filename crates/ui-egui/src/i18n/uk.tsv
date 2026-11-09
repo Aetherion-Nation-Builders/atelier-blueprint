@@ -1361,7 +1361,7 @@
 	More than {n} aliases.	Понад {n} псевдонімів.
 	Alias file: {file}	Файл псевдонімів: {file}
 	No alias file loaded. REINIT replaces these aliases with a file's.	Файл псевдонімів не завантажено. REINIT замінює ці псевдоніми псевдонімами з файлу.
-	Aliases are saved in your CADCraft profile and survive restarts.	Псевдоніми зберігаються в профілі CADCraft і не зникають після перезапуску.
+	Aliases are saved in your Atelier Blueprint profile and survive restarts.	Псевдоніми зберігаються в профілі Atelier Blueprint і не зникають після перезапуску.
 	Alias	Псевдонім
 	Command	Команда
 	overrides built-in	замінює вбудований
@@ -1400,8 +1400,8 @@
 	Replaces the shortcut of {commands}	Замінює комбінацію клавіш команди: {commands}
 	Needs Ctrl, Alt or a function key	Потрібна клавіша Ctrl, Alt або функціональна клавіша
 	Press the keys	Натисніть клавіші
-	Back to CADCraft's shortcut	Повернути комбінацію CADCraft
-	A shortcut you give wins over CADCraft's own. Changes apply at once and are kept for next time.	Ваша комбінація клавіш має перевагу над комбінацією CADCraft. Зміни застосовуються одразу й зберігаються.
+	Back to Atelier Blueprint's shortcut	Повернути комбінацію Atelier Blueprint
+	A shortcut you give wins over Atelier Blueprint's own. Changes apply at once and are kept for next time.	Ваша комбінація клавіш має перевагу над комбінацією Atelier Blueprint. Зміни застосовуються одразу й зберігаються.
 	Right-Click Customization...	Налаштування правої кнопки...
 	Right-Click Customization	Налаштування правої кнопки
 	Turn on time-sensitive right-click	Увімкнути залежне від часу клацання правою кнопкою

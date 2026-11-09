@@ -99,7 +99,7 @@ pub fn deliver(name: &str, _mime: &str, bytes: &[u8]) -> Result<(), String> {
 fn receive_open(name: &str, data: &FileData, inbox: &crate::upload::Inbox) {
     let name = if name == "document" { DEFAULT_NAME } else { name }.to_string();
     let FileData::Bytes(array) = data else {
-        inbox.refuse(format!("Open: {name} came as a File; CADCraft reads bytes"));
+        inbox.refuse(format!("Open: {name} came as a File; Atelier Blueprint reads bytes"));
         return;
     };
     // Refuse an oversized drawing before copying it into the app's memory (the data's own length).
